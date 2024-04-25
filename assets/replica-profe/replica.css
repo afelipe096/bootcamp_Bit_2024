@@ -1,0 +1,57 @@
+:root{
+    --color-gris:#aaaa
+}
+
+.fondo{
+    background-image: url(../img/banner.webp);
+}
+
+.cajas{
+    margin-left: 130px;
+}
+
+.resumen{
+    padding-left: 250px;
+    
+}
+
+.linea{
+    height: 1px;
+    width: 1000px;
+    background-color: var(--color-gris);
+}
+
+.productos{
+    width: 100px;
+    padding: 10px;
+}
+
+.pepe{
+    left: 60%;
+   bottom: 595px;
+}
+
+.pepe2{
+    left: 60%;
+   bottom: 478px;
+}
+
+.pepe3{
+    left: 60%;
+   bottom: 362px;
+}
+
+.letra-gris{
+    color: #3c3c3c;
+    font-size: 12px;
+    margin-bottom: -5px;
+}
+
+.proceder{
+    background-color: #7315ef;
+    width: 67%;
+}
+
+.proceder:hover{
+    background-color: #7315efea
+}

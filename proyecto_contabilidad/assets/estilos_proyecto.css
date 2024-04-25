@@ -1,0 +1,86 @@
+:root{
+    --color-gris:#e8e8e8
+}
+
+
+
+.buscar{
+    background-color: var(--color-gris);
+}
+
+.buscar:hover{
+    background-color: #b1b1b1;
+}
+
+.ayuda ul{
+    padding-left: 160px ;
+}
+
+.categoria{
+    border-radius: 0px 0px 10px !important;
+}
+
+.fondo-card-1,.fondo-card-2,.fondo-card-3,.fondo-card-4,.fondo-card-5,.fondo-card-6{
+    background-image: url("img/gris_oscuro.png") ;
+    
+    width: 140px;
+    height: 150px;
+}
+
+.boton-ejemplo{
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+    transition: all .5s;
+    border: 3px #ffffff solid;
+    margin-right: 240px;
+}
+
+.boton-ejemplo i{
+    transition: all .5s;  
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.boton-ejemplo:hover {
+    border: 3px #ffffff solid;
+}
+
+.boton-ejemplo:hover i{
+    transform: rotate(90deg);
+}
+
+.barra-pedidos{
+    width: 500px !important;
+    height: 600px !important;
+    margin-top: 0px !important;
+}
+
+.perfil{
+    display: flex;
+    justify-content: flex-start;
+}
+.foto-perfil{
+    margin-left: 35%;
+    margin-top: 0px;
+}
+
+.caja{
+    height: 150px !important;
+    
+}
+.caja-precios{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.caja-estadisticas{
+    margin-top: 30%;
+    
+}
+
+.caja-resumen-dia{
+    height: 200px !important;
+}
